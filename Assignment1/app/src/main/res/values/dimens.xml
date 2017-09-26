@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_size">26sp</dimen>
+    <dimen name="head_size">20sp</dimen>
+    <dimen name="padding_LR">12dp</dimen>
+    <dimen name="set_none_width">0dp</dimen>
+    <dimen name="set_marginBtn">12dp</dimen>
+    <dimen name="set_marginBtn_text">20dp</dimen>
+    <dimen name="set_margin">16dp</dimen>
+    <dimen name="set_height_edittext">35dp</dimen>
+    <dimen name="set_width_stroke">2dp</dimen>
+    <dimen name="Img_width">100dp</dimen>
+    <dimen name="paddingtop_setcenter">18px</dimen>
+</resources>
