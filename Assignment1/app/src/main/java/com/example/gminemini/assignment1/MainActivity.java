@@ -63,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
         if (age.length() == 0)
             age.setError("Please enter age");
 
+        if (!Character.isUpperCase(name.getText().toString().charAt(0))) {
+            name.setError("Please enter first character Upper Case");
+        }
+
+        if (!Character.isUpperCase(lastname.getText().toString().charAt(0))) {
+            lastname.setError("Please enter first character Upper Case");
+        }
+
         if (email.length() == 0)
             email.setError("Please enter email");
         else if (!isEmailValid(email.getText().toString()))
@@ -78,7 +86,9 @@ public class MainActivity extends AppCompatActivity {
                 age.length() != 0 &&
                 email.length() != 0 &&
                 (phone.length() != 0 && phone.length() == 10) &&
-                isEmailValid(email.getText().toString());
+                isEmailValid(email.getText().toString()) &&
+                Character.isUpperCase(name.getText().toString().charAt(0)) &&
+                Character.isUpperCase(lastname.getText().toString().charAt(0));
     }
 
 }
